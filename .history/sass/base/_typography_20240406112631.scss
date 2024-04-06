@@ -1,0 +1,56 @@
+
+body {
+    font-family:"Lato",sans-serif ;
+    font-weight: 400;
+    /*font-size: 16px; */
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+   
+}
+.heading-primary{
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin-bottom: 6rem;
+    // display: flex;
+    // flex-direction: column;
+
+    &--main{
+    display: block;
+    font-size: 7rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    margin-left: 1.8rem;
+    animation-name:moveInLeft ;
+    animation-duration: 1s ;   
+    
+
+    }
+
+    &--sub{
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 1.64rem;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    
+
+    }
+
+}
+
+.heading-tertiary{
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph{
+    font-size: 1.6rem;
+
+    &:not(:last-child){
+        margin-bottom: 3px;
+    }
+}
