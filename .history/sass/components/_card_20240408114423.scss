@@ -1,0 +1,22 @@
+
+.card{
+    perspective: 150rem;
+    &__side{
+        background-color: orangered;
+        height: 50rem;
+        transition: all .8s;
+
+        &--front{
+            background-color: orangered;
+        }
+        &--back{
+            background-color: rgb(211, 208, 51);
+        }
+    }
+
+    
+   
+    &:hover &__side{
+        transform:rotateY(180deg)
+    }
+}
